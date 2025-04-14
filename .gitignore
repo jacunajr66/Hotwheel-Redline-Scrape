@@ -1,0 +1,4 @@
+.DS_Store
+output/logs/*
+output/reports/*
+__pycache__
