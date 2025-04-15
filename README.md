@@ -29,7 +29,7 @@ cd hotwheel-scraper
 
 ```bash
 python -m venv .venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
@@ -69,16 +69,21 @@ Test coverage includes:
 
 ```
 .
+├── .pytest_cache
+├── .venv/
+├── .vscode/
+│   ├── settings.json
+├── output/
+│   ├── reports/                  # Generated CSV and JSON files
+│   └── logs/                     # Log and profiler output
 ├── src/
 │   └── hotwheel_scrape.py        # Main scraper logic
 ├── tests/
 │   └── test_hotwheel_scrape.py   # Unit tests
-├── output/
-│   ├── reports/                  # Generated CSV and JSON files
-│   └── logs/                     # Log and profiler output
+├── .gitignore
 ├── PYTHON_FEATURES.md
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ---
