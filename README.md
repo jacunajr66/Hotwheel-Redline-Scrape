@@ -69,10 +69,10 @@ Test coverage includes:
 
 ```
 .
-├── .pytest_cache
+├── .pytest_cache/
 ├── .venv/
 ├── .vscode/
-│   ├── settings.json
+│   └── settings.json
 ├── output/
 │   ├── reports/                  # Generated CSV and JSON files
 │   └── logs/                     # Log and profiler output
